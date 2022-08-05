@@ -1,9 +1,47 @@
-<div>
-    <h1>Chat simulator</h1>
-    <input id="chatBox">
-    <br>
-    <span id="log"></span>
+<header class="headerBox">
+    <h1>
+        Desafio clase 12
+    </h1>
+</header>
+
+
+
+<div class="productsBox">
+    <form action='/' method='POST'>
+        <label>Nombre</label>
+        <input id="inpName" class="inputs" type="text" name="nombre">
+        <label>Precio</label>
+        <input id="inpPrice" class="inputs" type="text" name="precio">
+        <label>Foto url</label>
+        <input id="inpUrl" class="inputs" type="text" name="url">
+        <button id="buttonProd" class="submit">submit</button>
+    </form>
+    <span id="prodsView"></span>
 </div>
+
+{{!-- {{#each products}}
+<ul class="prodUl">
+    <li>{{this.nombre}}</li>
+    <li>$ {{this.precio}}</li>
+    <li>
+        <img class="img" src="{{this.url}}" alt="foto">
+    </li>
+</ul>
+{{/each}} --}}
+
+
+
+
+
+<div class="chatDiv">
+    <h2>Centro de mensajes para el usuario</h2>
+    <input id="chatBox" class="inputs">
+    <br>
+    <span class="prodList" id="log"></span>
+</div>
+
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 <script src="/socket.io/socket.io.js"></script>
+
 <script src="js/chat.js"></script>

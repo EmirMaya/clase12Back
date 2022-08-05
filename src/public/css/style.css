@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerBox {
+    background-color: black;
+    padding: 30px 60px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.submit {
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.prodList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+    padding: 30px;
+    font-weight: bolder;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.chatDiv, .productsBox {
+    border-radius: 8px;
+    padding: 20px 100px;
+    margin: 50px 100px;
+    background-color: #78d098;
+}
+
+.inputs {
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.prodUl {
+    padding: 40px;
+    background-color: #78d098;
+    display: flex;
+    justify-content: space-around;
+}
+
+.prodUl li {
+    font-weight: bolder;
+    color: black;
+    list-style-type: none;
+}
+
+.img {
+    margin: 15px;
+    width: 10%;
+}
+
+.txt {
+    margin: 10px;
+    font-weight: bolder;
+}
+
+/* dejo una imagen para probar https://assets.adidas.com/images/w_600,f_auto,q_auto/095c778f23ef49799838aae700d28a41_9366/Zapatillas_Superstar_Negro_EG4959_07_standard.jpg */
